@@ -8,7 +8,8 @@ import (
 // firma sugerida:
 // func Greet(name string) string
 func main() {
-	fmt.Println(Greet("apolonia"))
+
+	Greet("apolonia")
 	fmt.Println(Greet2("michael"))
 
 }
